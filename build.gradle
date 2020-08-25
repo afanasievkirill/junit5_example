@@ -50,3 +50,10 @@ dependencies {
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
+
+task unit(type: Test) {
+    useJUnitPlatform {
+        includeTags 'unit'
+    }
+    systemProperty 'platform', 'web'
+}
