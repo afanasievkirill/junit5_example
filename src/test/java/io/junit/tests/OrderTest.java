@@ -6,7 +6,7 @@ import io.qameta.allure.Story;
 import org.junit.jupiter.api.*;
 
 @Feature("Проверяем последовательный запуск тестов (Сценарное тестирование)")
-@Story("Проверяем последовательный запуск тестов (Сценарное тестирование)")
+@DisplayName("Проверяем последовательный запуск тестов (Сценарное тестирование)")
 @Owner("afanasievkirill")
 @Tag("JunitTests")
 public class OrderTest {

@@ -11,7 +11,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Feature("Проверяем запуск параметризованных тестов")
-@Story("Проверяем запуск параметризованных тестов")
+@DisplayName("Проверяем запуск параметризованных тестов")
 @Owner("afanasievkirill")
 @Tag("JunitTests")
 public class ParametrizedTest {

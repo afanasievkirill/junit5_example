@@ -15,7 +15,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 @Feature("Проверяем работу ассертов Junit5")
-@Story("Проверка Ассетров библиотеки Junit5")
+@DisplayName("Проверка Ассетров библиотеки Junit5")
 @Owner("afanasievkirill")
 @Tag("JunitTests")
 public class AssertionTest extends BaseTest {

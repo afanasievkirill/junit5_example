@@ -9,7 +9,7 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Tag;
 
 @Feature("Проверяем запуск повторяющихся тестов")
-@Story("Проверяем запуск повторяющихся тестов")
+@DisplayName("Проверяем запуск повторяющихся тестов")
 @Owner("afanasievkirill")
 @Tag("JunitTests")
 public class ReapitedTest {

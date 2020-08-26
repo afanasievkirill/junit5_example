@@ -15,7 +15,7 @@ import java.util.NoSuchElementException;
 import static org.junit.jupiter.api.Assertions.*;
 
 @Feature("Проверяем работу Корзины")
-@Story("Проверяем работу Корзины")
+@DisplayName("Проверяем работу Корзины")
 @Owner("afanasievkirill")
 @Tag("BasketTests")
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
