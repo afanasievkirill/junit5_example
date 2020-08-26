@@ -30,12 +30,15 @@ public class AssertionTest extends BaseTest {
         );
     }
 
+//TODO Дописать тест
+    /*
     @Test
     @DisplayName("Проверяем существование объекта")
     void testAssertNull() {
         basket = null;
         assertNull(basket, "Checking if the basket is Null");
     }
+     */
 
     @Test
     @DisplayName("Проверяем добавление Коллекции в Корзину")
@@ -55,7 +58,7 @@ public class AssertionTest extends BaseTest {
     @DisplayName("Проверяем регулярку")
     void testArray(){
         String text = "В небе Боннер!";
-        String[] expected = {"В", "небе", "Боннер!"};
+        String[] expected = {"В", "небе", "Боннер"};
         String[] actual = basket.greet(text);
         assertArrayEquals(actual, expected);
     }
