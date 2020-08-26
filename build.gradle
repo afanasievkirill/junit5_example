@@ -55,7 +55,7 @@ tasks.withType(JavaCompile) {
 task unit(type: Test) {
     useJUnitPlatform {
         includeTags 'JunitTests'
-        excludeTags() 'BasketTests'
+        excludeTags 'BasketTests'
     }
 }
 
