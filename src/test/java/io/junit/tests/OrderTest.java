@@ -1,9 +1,13 @@
 package io.junit.tests;
 
 import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.*;
 
-@Feature("Проверяем последовательный запуск тестов (Сценароное тестирование)")
+@Feature("Проверяем последовательный запуск тестов (Сценарное тестирование)")
+@Story("Проверяем последовательный запуск тестов (Сценарное тестирование)")
+@Owner("afanasievkirill")
 @Tag("JunitTests")
 public class OrderTest {
 

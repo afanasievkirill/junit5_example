@@ -1,6 +1,8 @@
 package io.junit.tests;
 
 import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import methods.Fruit;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -12,7 +14,9 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@Feature("Проверяем работу ассертов junit5")
+@Feature("Проверяем работу ассертов Junit5")
+@Story("Проверка Ассетров библиотеки Junit5")
+@Owner("afanasievkirill")
 @Tag("JunitTests")
 public class AssertionTest extends BaseTest {
 

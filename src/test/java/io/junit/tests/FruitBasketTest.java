@@ -1,6 +1,8 @@
 package io.junit.tests;
 
 import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import methods.Fruit;
 import methods.FruitsBasket;
 import org.junit.FixMethodOrder;
@@ -13,6 +15,8 @@ import java.util.NoSuchElementException;
 import static org.junit.jupiter.api.Assertions.*;
 
 @Feature("Проверяем работу Корзины")
+@Story("Проверяем работу Корзины")
+@Owner("afanasievkirill")
 @Tag("BasketTests")
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class FruitBasketTest extends BaseTest {

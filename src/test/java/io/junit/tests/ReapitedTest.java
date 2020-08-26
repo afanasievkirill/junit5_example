@@ -2,11 +2,15 @@ package io.junit.tests;
 
 
 import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Tag;
 
 @Feature("Проверяем запуск повторяющихся тестов")
+@Story("Проверяем запуск повторяющихся тестов")
+@Owner("afanasievkirill")
 @Tag("JunitTests")
 public class ReapitedTest {
 
