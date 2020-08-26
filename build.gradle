@@ -64,6 +64,7 @@ tasks.withType(Test) {
 task unit_tests(type: Test) {
     useJUnitPlatform {
         includeTags 'JunitTests'
+        includeTags 'ParametrizedTest'
         excludeTags 'BasketTests'
     }
 }
@@ -71,6 +72,7 @@ task unit_tests(type: Test) {
 task basket_tests(type: Test) {
     useJUnitPlatform {
         includeTags 'BasketTests'
+        includeTags 'ParametrizedTest'
         excludeTags 'JunitTests'
     }
 }
